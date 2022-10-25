@@ -1,0 +1,12 @@
+.loader {
+  position: fixed;
+  top: 0;
+  z-index: 9999999;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+::ng-deep mat-spinner svg {
+  width: 50px !important;
+  height: 50px !important;
+}

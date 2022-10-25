@@ -1,0 +1,9 @@
+<app-navbar header="Welcome to Candidate Profile" (logoutEvent)="logout()"></app-navbar>
+
+<div class="d-flex flex-wrap profile-screen">
+  <common-card class="candidate-detail"
+    [email]="user?.email"
+    [name]="user?.name"
+    [bio]="user?.bio"
+  ></common-card>
+</div>

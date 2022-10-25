@@ -1,0 +1,10 @@
+.height-page {
+  height: 100%;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.width-100 {
+  width: 100%;
+}
+::ng-deep .mat-form-field-wrapper {
+  padding-bottom: 0;
+}
